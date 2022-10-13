@@ -72,6 +72,10 @@ plt.ylabel("loss")
 
 ## Output:
 
+![image](https://github.com/NYasaswini/Implementation-of-Linear-Regression-Using-Gradient-Descent/blob/f5ea0f779b543e84d87fbc8a2be88b00a086fffc/WhatsApp%20Image%202022-10-13%20at%205.56.51%20PM.jpeg)
+
+
+
 
 
 
