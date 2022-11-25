@@ -8,20 +8,24 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Use the standard libraries in python for Gradient Descent.
-2. Upload the dataset and check any null value using .isnull() function.
-3. Declare the default values for linear regression
-4. Calculate the loss usinng Mean Square Error
-5. Predict the value of y. 
-6. Plot the graph respect to hours and scores using scatter plot function.
-
+```
+1. Start the program
+2.Import the numpy.pandas and matplotlib
+3.Read the file which store the data
+4.Declare x as hours and y as scores of the data
+5.Using loop predit the data and find the y-intercept, slope using the formulae.
+6.Find the best fit using the straight line formula
+7.Display the data in graph using the matplotlib libraries
+8.Stop the Program.
+```
 ## Program:
 ```
 /*
 Program to implement the linear regression using gradient descent.
-Developed by: N.YASASWINI
-RegisterNumber: 212219040095
-*/
+Developed by:N.YASASWINI
+RegisterNumber:  212220040095
+/*
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -88,16 +92,14 @@ print("For population = 35,000, we predict a profit of $"+str(round(predict1,0))
 
 predict2 = predict(np.array([1,7]),theta)*10000
 print("For population = 70,000, we predict a profit of $"+str(round(predict2,0)))
+*/
 ```
 
 ## Output:
-![linear regression using gradient descent](./images/gd1.png)
-![](/images/gd6.png)
-![](/images/gd7.png)
-![](./images/gd2.png)
-![](./images/gd3.png)
-![](./images/gd4.png)
-![](./images/gd5.png)
+![image](https://github.com/prathima2002/Implementation-of-Linear-Regression-Using-Gradient-Descent/blob/e19d5fb2a699a869197c1a04cd5ef43cef3df22b/WhatsApp%20Image%202022-11-24%20at%2014.03.01.jpeg)
 
+![image](https://github.com/prathima2002/Implementation-of-Linear-Regression-Using-Gradient-Descent/blob/f0a244fbb6be3e4b6291d4b20a7d939551da03a2/WhatsApp%20Image%202022-11-24%20at%2014.03.13.jpeg)
+
+![image](https://github.com/prathima2002/Implementation-of-Linear-Regression-Using-Gradient-Descent/blob/101e01441d984564f7919ccb9d4675122355625f/WhatsApp%20Image%202022-11-24%20at%2014.03.27.jpeg)
 ## Result:
 Thus the program to implement the linear regression using gradient descent is written and verified using python programming.
